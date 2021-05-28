@@ -32,35 +32,35 @@ public class PasswordTest {
     @DisplayName("Checking lower case")
     public void checkLowerCasePassword () {
         Password pw = new Password();
-        assertFalse(pw.checkPassword("lowerc@sepasswordinvalid"));
+        assertFalse(pw.checkPassword("lowerc@sepassword1nvalid"));
     }
 
     @Test
     @DisplayName("Checking upper case")
     public void checkUpperCasePassword () {
         Password pw = new Password();
-        assertFalse(pw.checkPassword("ALLCAPSPASSWORDINVALID"));
+        assertFalse(pw.checkPassword("ALLCAPSP4SSWORDINV@LID"));
     }
 
     @Test
     @DisplayName("Checking for numbers")
     public void checkNumbers1 () {
         Password pw = new Password();
-        assertFalse(pw.checkPassword("123456789"));
+        assertFalse(pw.checkPassword("123notCorr€ct4567"));
     }
 
     @Test
     @DisplayName("Checking for numbers")
     public void checkNumbers2 () {
         Password pw = new Password();
-        assertFalse(pw.checkPassword("NotA1111owed"));
+        assertFalse(pw.checkPassword("Not@1111ow3d"));
     }
 
     @Test
     @DisplayName("Checking for numbers")
-    public void checkNumbers () {
+    public void checkNumbers3() {
         Password pw = new Password();
-        assertFalse(pw.checkPassword("alsoNotAllowed456"));
+        assertFalse(pw.checkPassword("alsoN07A((owed456"));
     }
 
     @Test
@@ -81,7 +81,14 @@ public class PasswordTest {
     @DisplayName("Checking for special characters")
     public void checkChars3 () {
         Password pw = new Password();
-        assertFalse(pw.checkPassword("NotAllowed."));
+        assertFalse(pw.checkPassword("N0t@llowed."));
+    }
+
+    @Test
+    @DisplayName("No input")
+    public void checkInput () {
+        Password pw = new Password();
+        assertFalse(pw.checkPassword(""));
     }
 
 }
