@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="516ff4af-807f-43d4-8ff6-309b73c6fa4c" name="Default Changelist" comment="10 Testcases created">
+    <list default="true" id="516ff4af-807f-43d4-8ff6-309b73c6fa4c" name="Default Changelist" comment="1 Testcase added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/ac/fhcampuswien/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ac/fhcampuswien/Password.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/at/ac/fhcampuswien/PasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/ac/fhcampuswien/PasswordTest.java" afterDir="false" />
@@ -67,19 +67,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="JUnit.PasswordTest">
-    <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.Password" />
-      <module name="Exercise1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercise1" />
       <extension name="coverage">
@@ -111,6 +98,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PasswordTest.checkChars3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.PasswordTest" />
+      <option name="METHOD_NAME" value="checkChars3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordTest.checkChars5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.PasswordTest" />
+      <option name="METHOD_NAME" value="checkChars5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PasswordTest.checkNumbers3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercise1" />
       <extension name="coverage">
@@ -127,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordTest.checkPasswordLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exercise1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
-      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.PasswordTest" />
-      <option name="METHOD_NAME" value="checkPasswordLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PasswordTest" />
+        <item itemvalue="JUnit.PasswordTest.checkChars5" />
+        <item itemvalue="JUnit.PasswordTest.checkChars3" />
         <item itemvalue="JUnit.PasswordTest.checkNumbers3" />
         <item itemvalue="JUnit.PasswordTest.checkChars1" />
-        <item itemvalue="Application.Password" />
-        <item itemvalue="JUnit.PasswordTest.checkPasswordLength" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622220467600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1 Testcase added">
+      <created>1622230310151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622230310151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10 Testcases created" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 Testcases created" />
+    <MESSAGE value="1 Testcase added" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 Testcase added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1622213607778">
@@ -205,46 +216,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622205086482" />
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1622230085426">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1622303988084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622230085426" />
-    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1622230085426">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622303988084" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1622303988084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622230085426" />
-    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1622230085426">
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622303988084" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1622303988084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622230085426" />
-    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1622230085426">
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622303988084" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1622303988084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622230085426" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1622229905246">
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622303988084" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1622303554101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622229905246" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1622229905246">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622303554101" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1622303554101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622229905246" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1622229905246">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622303554101" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1622303554101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622229905246" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1622229905246">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622303554101" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1622303554101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622229905246" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622303554101" />
     <state x="296" y="135" key="Maven.ArtifactSearchDialog" timestamp="1622207085707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="296" y="135" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1622207085707" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622220471008">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622230328964">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622220471008" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622230328964" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,7 +263,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/at/ac/fhcampuswien/Password.java</url>
           <line>14</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

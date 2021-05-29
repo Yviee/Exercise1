@@ -64,6 +64,13 @@ public class PasswordTest {
     }
 
     @Test
+    @DisplayName("Checking for numbers")
+    public void checkNumbers4() {
+        Password pw = new Password();
+        assertFalse(pw.checkPassword("Wh@t@b0u7T1111"));
+    }
+
+    @Test
     @DisplayName("Checking for special characters")
     public void checkChars1 () {
         Password pw = new Password();
@@ -82,6 +89,20 @@ public class PasswordTest {
     public void checkChars3 () {
         Password pw = new Password();
         assertFalse(pw.checkPassword("N0t@llowed."));
+    }
+
+    @Test
+    @DisplayName("Checking for correct password")
+    public void checkChars4 () {
+        Password pw = new Password();
+        assertTrue(pw.checkPassword("@cce9T4b12"));
+    }
+
+    @Test
+    @DisplayName("Checking for special characters")
+    public void checkChars5 () {
+        Password pw = new Password();
+        assertTrue(pw.checkPassword("Wond3rF000)"));
     }
 
     @Test
